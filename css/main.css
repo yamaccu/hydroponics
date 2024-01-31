@@ -1,0 +1,86 @@
+a{
+  text-decoration:none;
+  color:inherit;
+}
+hr {
+  width: 95%;
+  border-top: 5px solid #98C686;
+  margin-left: -5px;
+  margin-top: -30px;
+}
+
+
+.header{
+  display: none;
+  text-align: center; 
+  font-size: 30px; 
+  height: 75px;
+  background-image:url('/img/top2.png');
+  margin-bottom: 10px;
+  font-family: Meiryo;
+}
+
+.side-layout{
+  width:220px;
+  position:fixed;
+  overflow:auto;
+  flex-shrink: 0;
+  z-index: 30;
+}
+
+.flex-wrap{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.flex-nowrap{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.body-font{
+  font-family: Yu Gothic, Meiryo, sans-serif; 
+  font-weight: 500;
+  color:#333333;
+}
+
+.main-content{
+  position: fixed;
+  margin-top: 40px;
+  left:305px;
+  height: 100%;
+  width: calc(100vw - 315px);
+  overflow-x:hidden;
+  overflow-y:auto;
+  scroll-behavior: smooth;
+}
+.about-font{
+  font-size: 18px;
+}
+.contents{
+  display:flex; 
+  flex-wrap: nowrap;
+}
+
+
+@media (max-width: 768px) {
+  .side-layout{
+    display:none;
+  }
+  .main-content{
+    position: relative;
+    left:5px;
+    width: calc(100vw - 5px);
+    margin-top: 0px;
+  }
+  .contents{
+    flex-wrap: wrap;
+  }
+  .header{
+    display: block;
+  }
+  .about-font{
+    font-size: 16px;
+  }
+  
+}
