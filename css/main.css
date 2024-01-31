@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a{
   text-decoration:none;
   color:inherit;
@@ -45,14 +49,12 @@ hr {
 }
 
 .main-content{
-  position: fixed;
-  margin-top: 40px;
+  position: relative;
+  top: 40px;
   left:305px;
-  height: 100%;
-  width: calc(100vw - 315px);
+  width: calc(100% - 305px);
   overflow-x:hidden;
   overflow-y:auto;
-  scroll-behavior: smooth;
 }
 .about-font{
   font-size: 18px;
