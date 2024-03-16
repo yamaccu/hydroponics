@@ -30,6 +30,7 @@ hr {
   overflow:auto;
   flex-shrink: 0;
   z-index: 30;
+  height: calc(100vh - 90px); 
 }
 
 .flex-wrap{
@@ -50,7 +51,7 @@ hr {
 
 .main-content{
   position: relative;
-  top: 40px;
+  top: 10px;
   left:305px;
   width: calc(100% - 305px);
   overflow-x:hidden;
@@ -98,6 +99,9 @@ hr {
   }
   .about-font{
     font-size: 16px;
+  }
+  h1{
+    font-size: 25px;
   }
   
 }
