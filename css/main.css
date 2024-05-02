@@ -79,6 +79,29 @@ hr {
   width:30px;
 }
 
+div.easyLink-box{
+  padding:5px !important;
+  max-width:90% !important;
+}
+
+div.easyLink-info p.easyLink-info-name{
+  margin:0px !important;
+}
+
+@media screen and (max-width: 480px){
+  img.easyLink-img-pht.js-item-image{
+    width:160px !important;
+    height: 160px !important;
+  }
+  div.easyLink-img{
+    height:200px !important;
+  }
+
+  p.easyLink-info-btn{
+    margin-top: 10px !important;
+    display:flex !important;
+  }
+}
 
 
 @media (max-width: 768px) {
