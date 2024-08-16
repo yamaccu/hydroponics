@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>お部屋で野菜収穫 - Room Vege</title>
+  <title>水耕栽培website</title>
 
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/hydroponics/prof.ico" type="image/x-icon">
@@ -14,132 +14,150 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q63MXL5083"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-Q63MXL5083');
   </script>
 
-  <meta property="og:title" content="Room Vege" />
+  <meta property="og:title" content="水耕栽培website" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://yamaccu.github.io/hydroponics" />
-  <meta property="og:site_name" content="Room Vege" />
+  <meta property="og:site_name" content="水耕栽培website" />
   <meta property="og:locale" content="ja_JP" />
 
 </head>
 
-<body class="body-font" style="background-color: #F5F5F5;">
-  <div style="font-family: meiryo; position: relative;" class="header">
-    <p>Room Vege</p>
-    <p style="margin-top: -40px;">お部屋で野菜収穫</p>
-    <div class="ext-link">
-      <a href="/hydroponics/"><img src="img/home.png" class="ext-link-icon"
-          alt="homeへのリンク"></img></a>&nbsp;&nbsp;
+<header>
+  <div>
+    <a href="/" class="title">
+      <img style="position: relative; top:7px;" src="/img/leaf.png" />
+      水耕栽培 website
+    </a>
+  </div>
+</header>
+
+<body style="background-color: #98C686;">
+  <div class="flex-wrap" >
+    <div class="main">
+      <div class="window1">
+        <div class="titlebar1">
+          <p class="windowtitle1">about</p>
+        </div>
+        <span class="about">
+          <p>本ページでは、水耕栽培で野菜・ハーブ等を育てる方法を紹介しています。</p>
+          <p style="margin-top: -5px;">"なるべく手間をかけずに育てる" を目指しています。</p>
+          <p style="margin-top: -5px;">簡単ですので是非育ててみてください！</p>
+        </span>
+      </div>
+
+      <div id="sprout" class="menu">
+        <img class="menuicon" src="/img/sprout.png" />
+        スプラウト栽培
+      </div>
+
+      <div class="flex-wrap">
+        <div class="contents-menu">
+          <a href="">
+            <img style="max-width: 100%;border-radius: 2px;" src="/img/alfalfa.png" />
+            <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">アルファルファ<br>スプラウト</p>
+          </a>
+        </div>
+        <div class="contents-menu">
+          <a href="">
+            <img style="max-width: 100%;border-radius: 2px;" src="/img/broccolisprout.png" />
+            <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">ブロッコリー<br>スプラウト</p>
+          </a>
+        </div>
+      </div>
+
+      <div id="placup" class="menu">
+        <img class="menuicon" src="/img/placup.png" />
+        プラカップ栽培
+      </div>
+
+      <div class="flex-wrap">
+        <a href="">
+          <div class="contents-menu">
+            <img style="max-width: 100%;border-radius: 2px;" src="/img/garlicsprout.png" />
+            <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">にんにくの芽</p>
+        </a>
+      </div>
+      <div class="contents-menu">
+        <a href="">
+          <img style="max-width: 100%;border-radius: 2px;" src="/img/basil.png" />
+          <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">バジル</p>
+        </a>
+      </div>
     </div>
 
-  </div>
-  <div class="flex-nowrap">
-    <div class="side-layout">
-      <p style="font-family: meiryo; font-size: 24px; margin: 10px; text-align: center;">Room Vege</p>
-      <p style="font-family: meiryo; font-size: 24px; margin: -15px 0 5px 0; text-align: center;">お部屋で野菜収穫</p>
-      <img style="width: 100%;" src="img/top.png" />
-      <p style="text-align: right; font-size: 20px;"><a href="#about">About</a></p>
-      <p style="text-align: right; font-size: 20px; margin-top: -15px;"><a href="./#sprout">スプラウト</a></p>
-      <p style="text-align: right; font-size: 20px; margin-top: -15px;"><a href="#leaf">葉物</a></p>
-      <p style="text-align: right; font-size: 20px; margin-top: -15px;"><a href="#herb">ハーブ</a></p>
-      <!--
-      <p style="text-align: right; font-size: 20px; margin-top: -15px;"><a href="#item">水耕栽培アイテム</a></p>
-      -->
-      <br><br>
-      <div style="margin-right:10px;">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2127299793131419"
-          crossorigin="anonymous"></script>
-          <!-- head -->
-          <ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-2127299793131419" data-ad-slot="2560895837"
-          data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        </div>
-      </div>
+    <div id="basket" class="menu">
+      <img class="menuicon" src="/img/basket.png" />
+      水切り容器栽培
+    </div>
 
-    <div class="main-content">
-      <div id="about" style="font-size: 20px; margin-left: 5px">About</div>
-      <div style="width: 96%; height: 4px; background: #98C686; margin-top: -10px"></div>
-      <div class="flex-nowrap">
-        <img style="width: 75px; height: 75px; margin: 20px 10px 20px 10px;" src="img/prof.png" />
-        <div class="about-font">
-          <p>水耕栽培で野菜を育てる方法を紹介しています！
-            <br />キッチンやリビングで育てることができます。
-            <br /><a href="https://twitter.com/UrbanVegeOasis" target="_blank" rel="noopener noreferrer"><img style=" width: 16px; height: 16px;"
-              src="img/logo-black.png" />(<span style="text-decoration: underline;">twitter</span>)</a>でも情報発信しています。
-          </p>
-        </div>
+    <div class="flex-wrap">
+      <div class="contents-menu">
+        <a href="">
+          <img style="max-width: 100%;border-radius: 2px;" src="/img/radish.png" />
+          <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">ラディッシュ<br>（二十日大根）</p>
+        </a>
       </div>
-
-      <div id="sprout" style="font-size: 20px; font-weight:0; margin-left: 5px">スプラウト</div>
-      <div style="width: 96%; height: 4px; background: #98C686; margin-top: -10px"></div>
-      <div class="contents">
-        <a href="20240315_garlicsprout.html"><img style="margin: 15px 10px 5px 10px; width:430px; max-width: 96%;" src="img/garlicsprout.png"/></a>
-        <a href="20240502_sprout1.html"><img style="margin: 15px 10px 5px 10px; width:430px; max-width: 96%;" src="img/sprout1.png"/></a>
-      </div>
-      <div class="contents">
-        <a href="20240520_sprout2.html"><img style="margin: 15px 10px 5px 10px; width:430px; max-width: 96%;" src="img/20240520_sprout2.png"/></a>
-      </div>
-
-      <div id="leaf" style="font-size: 20px; margin-left: 5px">葉物</div>
-      <div style="width: 96%; height: 4px; background: #98C686; margin-top: -10px"></div>
-      <div class="contents">
-        <div style="width: 430px; height: 160px; margin: 15px 10px 5px 10px; background: #D9D9D9">
-          <p style="font-size: 30px;">作成中</p>
-        </div>
-        <div style="width: 430px; height: 160px; margin: 15px 10px 5px 10px; background: #D9D9D9">
-          <p style="font-size: 30px;">作成中</p>
-        </div>
-      </div>
-
-      <div id="herb" style="font-size: 20px; margin-left: 5px">ハーブ</div>
-      <div style="width: 96%; height: 4px; background: #98C686; margin-top: -10px"></div>
-      <div class="contents">
-        <div style="width: 430px; height: 160px; margin: 15px 10px 5px 10px; background: #D9D9D9">
-          <p style="font-size: 30px;">作成中</p>
-        </div>
-        <div style="width: 430px; height: 160px; margin: 15px 10px 5px 10px; background: #D9D9D9">
-          <p style="font-size: 30px;">作成中</p>
-        </div>
-      </div>
-
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <div style="margin-top:10px;text-align:center;display:flex;justify-content:center;flex-wrap:wrap">
-        <div style="width:48%;min-width:410px;">
-          <script async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2127299793131419"
-            crossorigin="anonymous"></script>
-          <!-- head -->
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2127299793131419"
-            data-ad-slot="2560895837" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
-        &nbsp;
-        <div style="width:48%;min-width:410px;">
-          <script async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2127299793131419"
-            crossorigin="anonymous"></script>
-          <!-- head -->
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2127299793131419"
-            data-ad-slot="2560895837" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
+      <div class="contents-menu">
+        <a href="">
+          <img style="max-width: 100%;border-radius: 2px;" src="/img/lettuceSalad.png" />
+          <p style="color: #F5F5F5;margin-top: 10px;font-weight: bold;">レタスサラダ<br>ミックス</p>
+        </a>
       </div>
     </div>
   </div>
+
+  <div class="side">
+    <span style="font-weight: bold;">管理人</span>
+    <div style="margin: 12px;">
+      <a href="https://twitter.com/UrbanVegeOasis" target="_blank" rel="noopener noreferrer">
+        <div class="flex-wrap">
+        <div class="linkbox" style="background-image: url('/img/prof.png');"></div>
+        <div style="margin-top: -12px; margin-left:8px; font-size:  14px;;">
+        <p>部屋に緑が欲しくて水耕栽培を始めました。<br>
+           植物が育つ様を見てると癒されます。<br>
+           <img style=" width: 16px; height: 16px;" src="img/logo-black.png" />でも情報発信しています。</p>
+      </div>
+        </div>
+      </a>
+    </div>
+    <span style="font-weight: bold;">Menu</span>
+    <div class="flex-wrap">
+      <div style="margin: 12px;">
+        <a href="#sprout">
+          <div class="linkbox" style="background-image: url('/img/sprout_linkbox.png');"></div>
+          <p style="margin-left: -8px; margin-top: 5px;text-align: center;">スプラウト<br>栽培</p>
+        </a>
+      </div>
+      <div style="margin: 12px;">
+        <a href="#placup">
+          <div class="linkbox" style="background-image: url('/img/placup_linkbox.png');"></div>
+          <p style="margin-left: -8px; margin-top: 5px; text-align: center;">プラカップ<br>栽培</p>
+        </a>
+      </div>
+      <div style="margin: 12px">
+        <a href="#basket">
+          <div class="linkbox" style="background-image: url('/img/basket_linkbox.png');"></div>
+          <p style="margin-left: -8px; margin-top: 5px; text-align: center;">水切り容器<br>栽培</p>
+        </a>
+      </div>
+    </div>
+
+    <span style="font-weight: bold;">広告</span>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2127299793131419"
+    crossorigin="anonymous"></script>
+    <!-- head -->
+    <ins class="adsbygoogle" style="display:block; margin-left: 10px;" data-ad-client="ca-pub-2127299793131419" data-ad-slot="2560895837"
+    data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+
 </body>
 
 </html>
